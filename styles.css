@@ -75,6 +75,7 @@ body {
 }
 
   .projects-section {
+    width: 100%;
     text-align: center;
     padding: 1rem 0;
     background: #2c6ebe;
@@ -97,6 +98,12 @@ body {
       padding: 1rem;
       margin: 0 auto;
       margin-bottom: 6rem;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .projects-grid {
+      max-width: 800px;
+    }
   }
 
   @media only screen and (max-width: 800px) {
