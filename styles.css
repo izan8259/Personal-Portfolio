@@ -94,23 +94,17 @@ body {
       grid-template-columns: 1fr 1fr;
       grid-gap: 2rem;
       width: 100%;
-      max-width: 1000px;
+      max-width: 50rem;
       padding: 1rem;
       margin: 0 auto;
       margin-bottom: 6rem;
-  }
-
-  @media only screen and (max-width: 1050px) {
-    .projects-grid {
-      max-width: 800px;
-    }
   }
 
   @media only screen and (max-width: 800px) {
     .projects-grid {
       display: grid;
       grid-template-columns: 1fr;
-      max-width: 500px;
+      max-width: 25rem;
     }
   }
 
